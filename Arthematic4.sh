@@ -9,6 +9,15 @@
 	echo "Enter Value c"
 	read c
 
-
-	result=$(( c + a / b ))
-	echo "result is=" $result
+	
+	result1=$(( $a + $b * $c))
+	
+	echo "Result1 is: " $result1
+	
+	result2=$(( $a * $b + $c))
+	
+	echo "Result2 is: " $result2
+	
+	result3=$(( $c + $a / $b ))
+	
+	echo "Result3 is: " $result3
