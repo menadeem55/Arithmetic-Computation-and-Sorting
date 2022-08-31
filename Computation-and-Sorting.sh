@@ -10,7 +10,10 @@
 	echo "Enter Value c"
 	read c
 
-
-	result=$(( a * b + c ))
-
-	echo "result is="$result
+	result1=$(( $a + $b * $c))
+	
+	echo "Result1 is: " $result1
+	
+	result2=$(( $a * $b + $c))
+	
+	echo "Result2 is: " $result2
